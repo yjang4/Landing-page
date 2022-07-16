@@ -1,6 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
-    background-color: #1F2937;
+
     color:white;
 }
 .header {
@@ -82,7 +82,7 @@ h2 {
     outline: 2px solid rgb(28, 86, 90);
 }
 .quote {
-    background-color: #E5E7EB;
+    background-color: #1d56c7;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,7 +91,7 @@ h2 {
     padding:100px;
 }
 .quote-name {
-    background-color:#E5E7EB;
+
     text-align: end;
     color: black;
     font-weight: 900;
