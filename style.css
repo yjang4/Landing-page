@@ -1,5 +1,6 @@
 * {
-    background-color: rgb(4, 21, 46);
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
     color:white;
 }
 .header {
@@ -31,6 +32,9 @@ a {
 h1 {
     padding:0px;
     margin:0px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 .sect1-left {
     display: flex;
@@ -78,17 +82,20 @@ h2 {
     outline: 2px solid rgb(28, 86, 90);
 }
 .quote {
-    background-color: rgb(51, 8, 59);
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    font-style: italic;
+    color: black;
     padding:100px;
 }
 .quote-name {
-    background-color: rgb(51, 8, 59);
+    background-color:#E5E7EB;
     text-align: end;
+    color: black;
     font-weight: 900;
+    font-style:normal;
 }
 .sect4 {
     display: flex;
@@ -103,17 +110,18 @@ h2 {
 .sect4 .sect4-left {
     display: flex;
     flex-direction: column;
-    background-color: rgb(19, 73, 55);
+    background-color: #3882F6;
     padding: 50px;
 }
 .sect4-text1, .sect4-text2 {
-    background-color: rgb(19, 73, 55);
+    background-color: #3882F6;
 }
 .sect4-text1 {
+    
     font-weight:bold;
 }
 .sect4 .sect4-right {
-    background-color: rgb(19, 73, 55);
+    background-color: #3882F6;
     padding: 50px;
 }
 .footer {
@@ -121,4 +129,8 @@ h2 {
     justify-content: center;
     align-items: center;
     padding: 30px;
+}
+button {
+    border-color: azure;
+    background-color: #3882F6;
 }
