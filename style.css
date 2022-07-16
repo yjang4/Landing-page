@@ -2,3 +2,123 @@
     background-color: rgb(4, 21, 46);
     color:white;
 }
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.logo-img {
+    height:50px;
+    width:auto;
+}
+ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.sect1 {
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.intro-img {
+    height: auto;
+    width: 300px;
+}
+h1 {
+    padding:0px;
+    margin:0px;
+}
+.sect1-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button {
+    border-radius: 10px;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(8, 58, 24);
+}
+.card-container {
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px;
+}
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 10px;
+    text-align: center;
+    color:black;
+}
+h2 {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+}
+.sect2{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-img {
+    border-radius: 10px;
+    border-color:rgb(137, 173, 228);
+    outline: 2px solid rgb(28, 86, 90);
+}
+.quote {
+    background-color: rgb(51, 8, 59);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding:100px;
+}
+.quote-name {
+    background-color: rgb(51, 8, 59);
+    text-align: end;
+    font-weight: 900;
+}
+.sect4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: white;
+}
+.sect4-card {
+    display: flex;
+}
+.sect4 .sect4-left {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(19, 73, 55);
+    padding: 50px;
+}
+.sect4-text1, .sect4-text2 {
+    background-color: rgb(19, 73, 55);
+}
+.sect4-text1 {
+    font-weight:bold;
+}
+.sect4 .sect4-right {
+    background-color: rgb(19, 73, 55);
+    padding: 50px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
